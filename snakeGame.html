@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="kor">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="snake.css">
+    <title>Snake Game</title>
+</head>
+
+<body>
+    <!-- 게임 화면 구성 -->
+    <div id="space">
+        <div id="title">
+            <span id ="rndrma">스네이크 게임</span>
+        </div>
+        <div id="contents">
+            <span>개발자 | Team Smartwave @이혜민</span><br>
+            <span>점수 : </span>
+            <span><strong id="scoreN">0</strong></span> <!-- 점수 표출 부분 -->
+        </div>
+        <div id="gameP">
+            <canvas id="gameSpace" width="400" height="400"></canvas>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./game.js">
+    </script>
+
+</body>
+
+</html>
