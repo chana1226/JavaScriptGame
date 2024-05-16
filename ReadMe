@@ -5,3 +5,7 @@ IDE : VS CODE
 [프로젝트 소개]
 레트로 하면 생각나는 스네이크 게임을 만들었습니다.
 벽에 닿거나, 자신의 몸에 닿으면 게임이 끝나며, 먹이를 먹을 때마다 몸 한 칸이 자라는 게임입니다.
+
+
+참고자료|
+https://www.educative.io/blog/javascript-snake-game-tutorial
