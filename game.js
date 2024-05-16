@@ -1,68 +1,3 @@
-<!DOCTYPE html>
-<html lang="kor">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snake Game</title>
-</head>
-<style>
-    @font-face {
-        font-family: appleB;
-        src: url(/AppleSDGothicNeoB.ttf);
-    }
-
-    @font-face {
-        font-family: appleL;
-        src: url(/AppleSDGothicNeoL.ttf);
-    }
-
-    #title {
-        font-size: 30px;
-        text-align: center;
-        font-family: 'appleB';
-        margin-top: 10%;
-        color:green;
-    }
-
-    #gameP {
-        text-align: center;
-    }
-
-    #contents {
-        text-align: center;
-        margin-bottom: 30px;
-        font-family: 'appleL';
-    }
-
-    #gameSpace {
-        border: 1px solid #614511;
-    }
-
-</style>
-
-<body>
-    <!-- 게임 화면 구성 -->
-    <div id="space">
-        <div id="title">
-            <span>스네이크 게임</span>
-        </div>
-        <div id="contents">
-            <span>개발자 | Team Smartwave @이혜민</span><br>
-            <span>점수 : </span>
-            <span><strong id="scoreN">0</strong></span> <!-- 점수 표출 부분 -->
-        </div>
-        <div id="gameP">
-            <canvas id="gameSpace" width="400" height="400"></canvas>
-        </div>
-    </div>
-
-
-</body>
-
-</html>
-
-<script>
 
     // canvas 기본 설정 (캔버스 DOM 선택 및 2d 설정)
     let canvas = document.getElementById('gameSpace');
@@ -290,5 +225,3 @@
         context.fillRect(foodX, foodY, 15, 15) ;
         context.strokeRect(foodX, foodY, 15, 15);
     }
-
-</script>
